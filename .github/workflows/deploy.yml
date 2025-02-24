@@ -50,6 +50,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: digitalgarden/
+          local-dir: /
           server-dir: /home/www/von-neumann.com/
           dangerous-clean-slate: true
