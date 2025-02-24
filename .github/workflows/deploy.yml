@@ -40,6 +40,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages	
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Deploy to FTP Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: digitalgarden/
+          server-dir: ftp://web46@s247.goserver.host/home/www/von-neumann.com/
+          dangerous-clean-slate: true
