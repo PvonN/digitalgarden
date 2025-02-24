@@ -2,23 +2,30 @@
 title: "Index"
 author: ["Philipp Neumann"]
 date: 2025-02-11T20:03:00+01:00
-lastmod: 2025-02-18T13:16:00+01:00
+lastmod: 2025-02-24T12:52:00+01:00
 draft: false
 ---
 
-## Welcome {#welcome}
+## Welcome to my Mycelium {#welcome-to-my-mycelium}
 
-Hello, fellow web traveler! I'm Philipp von Neumann—composer-performer of computer music, programmer of algorithmic swamps, and founder of the [Permacomposing]({{< relref "20230929081906-permacomposing.md" >}}) concept.
+This is where my exploration of [sound synthesis]({{< relref "20250214162644-sound_synthesis.md" >}}), [algorithmic composition]({{< relref "20250119143902-algorithmische_komposition.md" >}}), and [computer music]({{< relref "20230718084242-computermusik.md" >}}) grows and evolves. It’s a living archive of ideas, concepts, and experiments—part research, part artistic practice.
 
-Welcome to my [Digital Garden]({{< relref "20250207162602-digital_garden.md" >}}), a space for unfinished ideas and notes
-, blog entries and essays, and guides and tutorials.
+Here, you’ll find essays on sound synthesis and [composition]({{< relref "20250212204707-composition.md" >}}), notes on [Permacomposing]({{< relref "20230929081906-permacomposing.md" >}}), and explorations of open-source tools. Some thoughts are polished, others are still growing—nothing is final, everything is in flux.
 
-I write about [Computer Music]({{< relref "20250212113812-computer_music.md" >}}), [Electronic Music]({{< relref "20250212113712-electronic_music.md" >}}), [Sound Synthesis]({{< relref "20250214162644-sound_synthesis.md" >}}), and
-<Programming>, as well as broader philosophical ideas on [Music]({{< relref "20250212204809-music.md" >}}).
+Dive in, read, explore, and think along.
 
 
-### Programming {#programming}
+## Recent Essays {#recent-essays}
+
+
+## Notes on Programming {#notes-on-programming}
 
 -   [Common Lisp]({{< relref "20230813193858-lisp.md" >}})
 -   [C-Programming Language]({{< relref "20231210180812-c.md" >}})
 -   [Python]({{< relref "20240519103707-python.md" >}})
+
+
+## Notes on Sound Synthesis {#notes-on-sound-synthesis}
+
+
+## Notes on Algorithmic Composition {#notes-on-algorithmic-composition}
