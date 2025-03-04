@@ -2,7 +2,7 @@
 title: "Index"
 author: ["Philipp Neumann"]
 date: 2025-02-11T20:03:00+01:00
-lastmod: 2025-02-24T12:52:00+01:00
+lastmod: 2025-03-02T16:34:00+01:00
 draft: false
 ---
 
@@ -17,12 +17,21 @@ Dive in, read, explore, and think along.
 
 ## Recent Essays {#recent-essays}
 
+[Digital Autonomy - A Digital Garden as Refugium]({{< relref "20250302125608-digital_garden_essay.md" >}})
+
+
+## Recent Projects {#recent-projects}
+
+[Composition Diary]({{< relref "20250224192931-composition_diary.md" >}})
+
 
 ## Notes on Programming {#notes-on-programming}
 
--   [Common Lisp]({{< relref "20230813193858-lisp.md" >}})
--   [C-Programming Language]({{< relref "20231210180812-c.md" >}})
--   [Python]({{< relref "20240519103707-python.md" >}})
+[Common Lisp]({{< relref "20230813193858-lisp.md" >}})
+
+[C-Programming Language]({{< relref "20231210180812-c.md" >}})
+
+[Python]({{< relref "20240519103707-python.md" >}})
 
 
 ## Notes on Sound Synthesis {#notes-on-sound-synthesis}
