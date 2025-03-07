@@ -55,12 +55,12 @@ export const defaultContentPageLayout: PageLayout = {
 			  return orderA - orderB
 		  },
 	  }),
-	  Component.RecentNotes({ title: "Recent" }),
+	  Component.DesktopOnly(Component.RecentNotes({ title: "Recent" }),),
   ],
   right: [
-    Component.Graph(),
+      Component.DesktopOnly(Component.Graph()),
       Component.DesktopOnly(Component.TableOfContents()),
-      Component.Backlinks(),
+      Component.DesktopOnly(Component.Backlinks()),
 
   ],
 }

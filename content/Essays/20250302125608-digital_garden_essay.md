@@ -2,7 +2,7 @@
 title: "Digital Autonomy - A Digital Garden as Refugium"
 author: ["Philipp Neumann"]
 date: 2025-03-02T12:56:00+01:00
-lastmod: 2025-03-02T16:32:00+01:00
+lastmod: 2025-03-07T10:27:00+01:00
 tags: ["web-dev", "essays"]
 draft: false
 ---
