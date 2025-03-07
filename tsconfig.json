@@ -15,6 +15,6 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "include": ["**/*.ts", "**/*.tsx", "./package.json"],
+  "include": ["**/*.ts", "**/*.tsx", "./package.json", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!EssayCards.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!LinksLeft.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!RecentCards.tsx~"],
   "exclude": ["build/**/*.d.ts"]
 }

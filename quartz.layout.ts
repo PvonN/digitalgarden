@@ -24,10 +24,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-  //  Component.Darkmode(),
+      Component.PageTitle(),
+      Component.MobileOnly(Component.Spacer()),
+      Component.Search(),
+	  //  Component.LinksLeft(),
+	  //  Component.Darkmode(),
 	  Component.Explorer({
 		  sortFn: (a, b) => {
 			  const nameOrderMap: Record<string, number> = {
@@ -53,12 +54,14 @@ export const defaultContentPageLayout: PageLayout = {
  
 			  return orderA - orderB
 		  },
-	  })
+	  }),
+	  Component.RecentNotes({ title: "Recent" }),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+      Component.DesktopOnly(Component.TableOfContents()),
+      Component.Backlinks(),
+
   ],
 }
 

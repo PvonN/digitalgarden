@@ -2,7 +2,7 @@
 title: "Index"
 author: ["Philipp Neumann"]
 date: 2025-02-11T20:03:00+01:00
-lastmod: 2025-03-02T16:34:00+01:00
+lastmod: 2025-03-07T09:50:00+01:00
 draft: false
 ---
 
