@@ -15,6 +15,6 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "include": ["**/*.ts", "**/*.tsx", "./package.json", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!EssayCards.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!LinksLeft.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!RecentCards.tsx~"],
+  "include": ["**/*.ts", "**/*.tsx", "./package.json", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!EssayCards.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!LinksLeft.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!RecentCards.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!NavExplorer.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!NotFor.tsx~", "../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!OnlyFor.tsx~"],
   "exclude": ["build/**/*.d.ts"]
 }

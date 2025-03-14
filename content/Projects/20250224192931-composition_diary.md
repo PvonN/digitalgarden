@@ -2,7 +2,7 @@
 title: "Composition Diary"
 author: ["Philipp Neumann"]
 date: 2025-02-24T19:29:00+01:00
-lastmod: 2025-03-01T20:01:00+01:00
+lastmod: 2025-03-13T10:57:00+01:00
 tags: ["project", "music", "composition"]
 draft: false
 ---
@@ -21,6 +21,27 @@ insight into what I’ve done recently.
 
 
 #### March {#march}
+
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-13 Thu&gt;</span></span>
+**Raumstaben**
+
+-   worked on a envelope for object sound
+-   used data from the browser
+-   maybe a good starting point
+
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-11 Tue&gt;</span></span>
+**Raumstaben**
+
+-   implemented 4 sounds
+-   need to work on them individually
+-   then think about how to combine them
+
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-10 Mon&gt;</span></span>
+**Raumstaben**
+
+-   worked on object sounds
+-   kept it simpled
+-   i have ideas in mind which could be included easily
 
 <span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-01 Sat&gt;</span></span>
 **Folkwang Bewegtbild**

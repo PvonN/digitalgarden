@@ -31,3 +31,8 @@
   --graph-node-passive: #cc00cc; /* Magenta für reguläre Knoten */
 }
 
+
+.explorer-content ul li>a:not([data-for*="/content/"]) {
+  color: var(--secondary);
+}
+
