@@ -32,7 +32,10 @@
 }
 
 
-.explorer-content ul li>a:not([data-for*="/content/"]) {
+// .explorer-content ul li>a:not([data-for*="/"]) {
+//   color: var(--secondary);
+// }
+
+#explorer-content ul li>a:not([data-for*="/"]) {
   color: var(--secondary);
 }
-

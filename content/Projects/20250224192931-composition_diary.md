@@ -2,7 +2,7 @@
 title: "Composition Diary"
 author: ["Philipp Neumann"]
 date: 2025-02-24T19:29:00+01:00
-lastmod: 2025-03-13T10:57:00+01:00
+lastmod: 2025-03-18T16:33:00+01:00
 tags: ["project", "music", "composition"]
 draft: false
 ---
@@ -21,6 +21,11 @@ insight into what I’ve done recently.
 
 
 #### March {#march}
+
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-18 Tue&gt;</span></span>
+**Raumstaben**
+
+-   realised an all spectrum version
 
 <span class="timestamp-wrapper"><span class="timestamp">&lt;2025-03-13 Thu&gt;</span></span>
 **Raumstaben**

@@ -27,11 +27,8 @@ export const defaultContentPageLayout: PageLayout = {
 		Component.PageTitle(),
 		Component.MobileOnly(Component.Spacer()),
 		Component.Search(),
-//		Component.NavExplorer(),
 		//  Component.LinksLeft(),
 		//  Component.Darkmode(),
-		Component.NotFor(
-			{ titles: ["Index"] },
 			Component.Explorer({
 				title: "Mycelium",
 				sortFn: (a, b) => {
@@ -58,7 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 					return orderA - orderB
 				},
-			}),),
+			}),
 		Component.OnlyFor(
 			{ titles: ["Index"]},
 			Component.DesktopOnly(Component.RecentNotes({ title: "Recent" }),),

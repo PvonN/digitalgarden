@@ -2,7 +2,7 @@
 title: "Electronic Music Artists"
 author: ["Philipp Neumann"]
 date: 2025-02-12T11:35:00+01:00
-lastmod: 2025-02-23T08:52:00+01:00
+lastmod: 2025-04-04T09:16:00+02:00
 tags: ["electronic-music"]
 draft: false
 ---
@@ -15,6 +15,7 @@ Music]({{< relref "20250212113712-electronic_music.md" >}}), [Computer Music]({{
 
 ## Content {#content}
 
+-   Elvin Brandhi
 -   [Jonáš Gruska](https://jonasgru.sk/)
     -   based in Bratislava
     -   founder of LOM [Microphones]({{< relref "20250223085152-microphones.md" >}}) and the LOM Space / Label
