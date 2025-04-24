@@ -32,10 +32,13 @@
 }
 
 
-// .explorer-content ul li>a:not([data-for*="/"]) {
+.explorer-content ul li>a:not([data-for*="/"]) {
+	color: var(--heading);
+	opacity: 1;
+	font-family: var(--headerFont);
+	font-size: .95rem;
+}
+
+// #explorer-content ul li>a:not([data-for*="/"]) {
 //   color: var(--secondary);
 // }
-
-#explorer-content ul li>a:not([data-for*="/"]) {
-  color: var(--secondary);
-}

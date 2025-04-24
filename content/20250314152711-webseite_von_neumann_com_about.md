@@ -1,8 +1,8 @@
 ---
-title: "about"
+title: ">> About"
 author: ["Philipp Neumann"]
 date: 2025-03-14T15:27:00+01:00
-lastmod: 2025-03-14T16:43:00+01:00
+lastmod: 2025-04-24T16:46:00+02:00
 tags: ["about"]
 draft: false
 ---
