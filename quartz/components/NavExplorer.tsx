@@ -3,7 +3,7 @@ import style from "./styles/explorer.scss"
 
 // @ts-ignore
 import script from "./scripts/explorer.inline"
-import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
+import { ExplorerNode, FileNode, Options } from "../../../../../../../.emacs.d/.backupfiles/!Users!philippneumann!Documents!Code!Webseiten!von-neumann.com!digitalgarden!quartz!components!ExplorerNode.tsx~"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
