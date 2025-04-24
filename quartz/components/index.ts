@@ -25,6 +25,7 @@ import LinksLeft from "./LinksLeft"
 import OnlyFor from "./OnlyFor"
 import NotFor from "./NotFor"
 import NavExplorer from "./NavExplorer"
+import ConditionalRender from "./ConditionalRender"
 
 export {
 	ArticleTitle,
@@ -53,4 +54,5 @@ export {
 	OnlyFor,
 	NotFor,
 	NavExplorer,
+	ConditionalRender,
 }

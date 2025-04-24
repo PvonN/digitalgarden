@@ -18,19 +18,31 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
 	beforeBody: [
-		Component.Breadcrumbs(),
-		Component.ArticleTitle(),
-		Component.ContentMeta(),
-		Component.TagList(),
+		Component.ConditionalRender({
+			component: Component.DesktopOnly(Component.Breadcrumbs()),
+			condition: (page) => page.fileData.slug !== "index",
+		}),		
+		Component.ConditionalRender({
+			component: Component.ArticleTitle(),
+			condition: (page) => page.fileData.slug !== "index",
+		}),
+		Component.ConditionalRender({
+			component: Component.ContentMeta(),
+			condition: (page) => page.fileData.slug !== "index",
+		}),
+		Component.ConditionalRender({
+			component: Component.TagList(),
+			condition: (page) => page.fileData.slug !== "index",
+		}),
 	],
 	left: [
 		Component.PageTitle(),
 		Component.MobileOnly(Component.Spacer()),
-		Component.Search(),
+		Component.DesktopOnly(Component.Search()),
 		//  Component.LinksLeft(),
 		//  Component.Darkmode(),
 			Component.Explorer({
-				title: "Mycelium",
+				title: "Navigation",
 				sortFn: (a, b) => {
 					const nameOrderMap: Record<string, number> = {
 						"Essays": 10,
@@ -56,14 +68,17 @@ export const defaultContentPageLayout: PageLayout = {
 					return orderA - orderB
 				},
 			}),
-		Component.OnlyFor(
-			{ titles: ["Index"]},
-			Component.DesktopOnly(Component.RecentNotes({ title: "Recent" }),),
-		)
+		Component.ConditionalRender({
+			component: Component.DesktopOnly(Component.RecentNotes({ title: "Recent" }),),
+			condition: (page) => page.fileData.slug !== "Index",
+		})
 	],
 	right: [
 		Component.DesktopOnly(Component.Graph()),
-		Component.DesktopOnly(Component.TableOfContents()),
+		Component.ConditionalRender({
+			component: Component.DesktopOnly(Component.TableOfContents()),
+			condition: (page) => page.fileData.slug !== "index",
+		}),
 		Component.DesktopOnly(Component.Backlinks()),
 
 	],
