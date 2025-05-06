@@ -206,6 +206,10 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   transform: rotate(-90deg);
 }
 
+explorer-ul li > svg {
+  transform: rotate(-90deg);
+}
+
 .folder-icon:hover {
   color: var(--tertiary);
 }

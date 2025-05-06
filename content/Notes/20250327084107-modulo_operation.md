@@ -2,14 +2,14 @@
 title: "Modulo Operation"
 author: ["Philipp Neumann"]
 date: 2025-03-27T08:41:00+01:00
-lastmod: 2025-03-27T09:50:00+01:00
+lastmod: 2025-04-28T14:19:00+02:00
 tags: ["programming", "math"]
 draft: false
 ---
 
 ## Overview {#overview}
 
-The **Modulo Operation** is a helpfull tool in Programming, e.g. to check if a number is even or odd. It also can be used fpr save indexing of arrays.
+The **Modulo Operation** is a helpfull tool in Programming, e.g. to check if a number is even or odd. It also can be used for save indexing of arrays.
 
 Here are some notes and examples on modulo operations.
 

@@ -120,9 +120,9 @@ export default ((userOpts?: Partial<Options>) => {
           <OverflowList class="explorer-ul" />
         </div>
         <template id="template-file">
-          <li>
+			<li>	
             <a href="#"></a>
-          </li>
+			</li>
         </template>
         <template id="template-folder">
           <li>
